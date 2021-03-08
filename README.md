@@ -1,29 +1,4 @@
-<!-- TOC -->
-
-- [파이썬 알고리즘 인터뷰](#파이썬-알고리즘-인터뷰)
-    - [문제 풀이](#문제-풀이)
-    - [기타 코드](#기타-코드)
-    - [리트코드 변경 사항](#리트코드-변경-사항)
-
-<!-- /TOC -->
-
-# 파이썬 알고리즘 인터뷰
-
-95가지 알고리즘 문제 풀이로 완성하는 코딩 테스트
-
-![책표지](http://docs.likejazz.com/images/2020/book-cover.jpg)  
-《파이썬 알고리즘 인터뷰》는 다음 판매처에서 구매하실 수 있습니다.
-- [교보문고](https://bit.ly/3feaYxi)
-- [YES24](https://bit.ly/3iGw8Gw)
-- [알라딘](http://aladin.kr/p/2fU2N)
-- [인터파크](https://bit.ly/3f9SyOg)
-
-및 전국 교보문고 매장
-
-★ 정오표: https://www.onlybook.co.kr/entry/algorithm-interview-errata  
-★ 도서정보: https://www.onlybook.co.kr/entry/algorithm-interview
-
-★ YouTube: https://www.youtube.com/watch?v=fNyGHpSWhTA
+# 푼 문제 지우기
 
 ![마인드맵](https://user-images.githubusercontent.com/1250095/86745916-a62e9a00-c075-11ea-9aa5-8455e2527f87.png)
 
@@ -31,9 +6,7 @@
 | 번호 | 제목 | 난이도 | 장 | 풀이 코드 |
 | --- | --- | ---- | - | --- |
 | 1 | [유효한 팰린드롬](https://leetcode.com/problems/valid-palindrome/) | ★ | 6장. 문자열 조작 | [1-1.py](2-python/ch06/1-1.py)<br>[1-2.py](2-python/ch06/1-2.py)<br>[1-3.py](2-python/ch06/1-3.py)<br>[1-4.c](2-python/ch06/1-4.c) |
-| 2 | [문자열 뒤집기](https://leetcode.com/problems/reverse-string/) | ★ | 6장. 문자열 조작 | [2-1.py](2-python/ch06/2-1.py)<br>[2-2.py](2-python/ch06/2-2.py) |
 | 3 | [로그 파일 재정렬](https://leetcode.com/problems/reorder-data-in-log-files/) | ★ | 6장. 문자열 조작 | [3-1.py](2-python/ch06/3-1.py) |
-| 4 | [가장 흔한 단어](https://leetcode.com/problems/most-common-word/) | ★ | 6장. 문자열 조작 | [4-1.py](2-python/ch06/4-1.py) |
 | 5 | [그룹 애너그램](https://leetcode.com/problems/group-anagrams/) | ★★ | 6장. 문자열 조작 | [5-1.py](2-python/ch06/5-1.py) |
 | 6 | [가장 긴 팰린드롬 부분 문자열](https://leetcode.com/problems/longest-palindromic-substring/) | ★★ | 6장. 문자열 조작 | [6-1.py](2-python/ch06/6-1.py) |
 | 7 | [두 수의 합](https://leetcode.com/problems/two-sum/) | ★ | 7장. 배열 | [7-1.py](3-linear-data-structures/ch07/7-1.py)<br>[7-2.py](3-linear-data-structures/ch07/7-2.py)<br>[7-3.py](3-linear-data-structures/ch07/7-3.py)<br>[7-4.py](3-linear-data-structures/ch07/7-4.py)<br>[7-5.py](3-linear-data-structures/ch07/7-5.py)<br>[7-6.go](3-linear-data-structures/ch07/7-6.go) |
@@ -125,19 +98,3 @@
 | 93(문제 5) | [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677) | ★★ | 부록 B. 카카오 공채 문제 풀이 | [5.py](appendix-B/5.py) |
 | 94(문제 6) | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | ★★★ | 부록 B. 카카오 공채 문제 풀이 | [6.py](appendix-B/6.py) |
 | 95(문제 7) | [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676) | ★★★ | 부록 B. 카카오 공채 문제 풀이 | [7.py](appendix-B/7.py) |
-
-## 기타 코드
-- 4장 [계산 속도 비교](miscellaneous/4-performance.py)
-- 9장 [스택](miscellaneous/9-stack.py)
-- 11장 [생일 문제](miscellaneous/11-birthday.py)
-- 12장 [그래프 순회](miscellaneous/12-graph-traversals.py)
-- 14장 [트리 순회](miscellaneous/14-tree-traversals.py)
-- 15장 [이진 힙](miscellaneous/15-binary-heap.py)
-- 17장 [버블 정렬](miscellaneous/17-bubble-sort.py)
-- 17장 [퀵 정렬](miscellaneous/17-quick-sort.py)
-- 21장 [분할 가능 배낭 문제](miscellaneous/21-fractional-knapsack.py)
-- 23장 [0-1 배낭 문제](miscellaneous/23-zero-one-knapsack.py)
-
-## 리트코드 변경 사항
-- 7번 문제는 테스트케이스가 삭제되어 실행 시간이 달라졌습니다. [#62](https://github.com/onlybooks/algorithm-interview/issues/62)
-- 75번 문제는 테스트케이스가 추가되어 더 이상 풀이가 되지 않습니다. 새로운 풀이는 [#67](https://github.com/onlybooks/algorithm-interview/issues/67)을 참고하세요.
